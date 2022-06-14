@@ -1,0 +1,128 @@
+
+
+/* Cambiamos el tamaño de la fuente del Titulo, el borde, tamaño*/
+
+#Principal {
+    border: thick solid rgba(0, 8, 0, 0.966);/* color del borde*/
+    overflow:hidden; /*hidden; hace que el texto que sobresalga por encima del div no sea visible.(visible,scroll)*/
+    text-align:center; /*Alinea texto, izq,centro,justificado*/
+ 
+    width: 100%; /* tamaño de la ventana*/
+    font-size: 40px;     /*especifica la dimensión de la letra. */
+    background-color: rgba(28, 206, 12, 0.808); /*Color de fondo*/
+    
+}
+
+
+/* articulo principal*/
+.articulos{
+    text-align: center;
+    float: left;
+    width: 75%; /*ancho de pantalla*/
+    font-size: 35px;
+    background-color: rgba(12, 122, 150, 0.808);
+    border: thick solid rgb(0, 3, 0);
+    
+    
+}
+
+/*Barra lateral*/
+
+.Secundario{
+    float: right;
+    text-align:center;/* se basa en la forma del texto, /justifica/centr)*/
+    font-size: 31px;
+    background-color: rgba(240, 14, 59, 0.808);
+    border: thick solid rgb(0, 3, 0);
+    width: 23%; /*ancho de pantalla*/
+}
+
+#Menu{
+    padding: 1px;
+   
+    }
+
+    /*Barra de navegacion*/
+.ul1{
+    font-size: 20px;
+    background-color: rgba(241, 100, 206, 0.726);/*color de fondo*/
+    width: 97%; /*ancho de pantalla*/
+    text-align: center;
+}
+/* color de las letras de NAV*/
+nav a{
+    color: rgba(23, 3, 73, 0.137)
+  }
+    /*COLOR DE FONDO DE LA LETRA DE NAV*/
+nav a:hover{
+    background-color: rgb(230, 106, 23);
+}
+
+/* sca los puntos al link de nav*/
+.submenu{
+    display: inline-block;
+}
+
+li{
+    
+    
+    padding: 30px;
+  
+    text-align: center;
+    padding-left: 20px;
+}
+
+.Img1 {
+    float: left;
+    margin-top: 13px;
+    margin-left: 25px;
+    overflow: hidden;
+}
+.Img2 {
+    float: left;
+    margin-top: 13px;
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.pie{
+    text-align: right;
+    padding-top: 50px;
+}
+a:link{
+    color: rgb(17, 121, 103);
+}
+
+
+/* para que aparezca una imagen y la otra no*/
+@media screen and (max-width: 800px){
+
+    .img1{
+        display: none;
+    }
+
+    .Img2{
+        display: none;
+    }
+    
+}
+
+/* para que aparezca una imagen y la otra no*/
+@media screen and (min-width: 801px) {
+    .img1{
+        display: none;
+    }
+
+    .Img2{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+.WEB{
+    overflow:hidden; /*hidden; hace que el texto que sobresalga por encima del div no sea visible.(visible,scroll)*/
+}
